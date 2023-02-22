@@ -8,13 +8,13 @@
       "buttons": [
         {
           "id": 1,
-          "text": "KNOW MORE",
+          "text": "VER MÁS",
           "link": "!#",
           "type": "btn-circle btn-color"
         },
         {
             "id": 2,
-            "text": "CONTACT US",
+            "text": "CONTÁCTANOS",
             "link": "!#",
             "type":"btn-circle btn-outline-white"
           }
@@ -28,13 +28,13 @@
       "buttons": [
         {
           "id": 1,
-          "text": "LEARN MORE",
+          "text": "VER MAS",
           "link": "!#",
           "type":"btn-circle btn-color"
         },
         {
           "id": 2,
-          "text": "OUR SERVICES",
+          "text": "NUESTROS SERVICIOS",
           "link": "!#",
           "type":"btn-circle btn-outline-white"
         }
