@@ -100,7 +100,7 @@ function App() {
     <Router basename={"/"}>
       <ScrollToTop>
         <Switch>
-          <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demos} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={CreativeOnePage} />
           <Route
             exact
             path={`${process.env.PUBLIC_URL}/creative-agency`}
