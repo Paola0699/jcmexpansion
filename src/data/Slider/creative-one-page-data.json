@@ -1,7 +1,8 @@
 [
     {
       "id": 1,
-      "title": "Contadores públicos certificados",
+      "tagline": "Soluciones contables eficientes",
+      "title": "Para hacer crecer su negocio",
       "image": "slides/home-bg-1.png",
       "buttons": [
         {
@@ -20,7 +21,7 @@
     },
     {
       "id": 2,
-      "title": "Confía en nosotros la contabilidad",
+      "title": "Déjanos a nosotros la contabilidad",
       "tagline": "Enfócate en hacer crecer tu negocio",
       "image": "slides/home-bg-1.png",
       "buttons": [

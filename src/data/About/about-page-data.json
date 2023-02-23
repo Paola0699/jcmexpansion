@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "WEB DESIGN",
-    "text": "Designing a good website that accommodates a lot of content is a tricky balancing act to pull off.",
+    "title": "Profesionalismo",
+    "text": "JCMExpansion valora la ética profesional y la integridad en todas sus interacciones y transacciones comerciales.",
     "icon": "diamond"
   },
   {
     "id": 2,
-    "title": "APP DEVELOPMENT",
-    "text": "We build mobile apps for the conference, integrating unique content and branding to create.",
+    "title": "Confidencialidad",
+    "text": " La privacidad y la confidencialidad de la información del cliente son de máxima importancia para JCMExpansion.",
     "icon": "paint"
   },
   {
     "id": 3,
-    "title": "DIGITAL MARKETING",
-    "text": "Google has made this important since 1998 when it launched. Content became, and still is king since websites.",
+    "title": "Integridad",
+    "text": "JCMExpansion valora la honestidad y la transparencia en todas sus interacciones comerciales y con sus clientes.",
     "icon": "rocket-alt-2"
   },
   {
     "id": 4,
-    "title": "UI / UX FRIENDLY",
-    "text": "UX design refers to the term user experience design, while UI design stands for user interface design.",
+    "title": "Orientación al cliente",
+    "text": "La satisfacción del cliente es una prioridad para JCMExpansion, y se esfuerzan por comprender las necesidades de sus clientes y brindar soluciones personalizadas para satisfacerlas.",
     "icon": "laptop-alt"
   }
 ]

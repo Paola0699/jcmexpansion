@@ -50,7 +50,7 @@ const CreativeOnePage = () => {
         contact.current.scrollIntoView({ behavior: "smooth" });
         break;
       default:
-        
+
     }
   };
 
@@ -58,11 +58,10 @@ const CreativeOnePage = () => {
     <Loader>
       <HeaderTwo scrollToSection={scrollToSection} />
       <HeroSliderSection data={dataCreative} ref={home} />
-      <Welcome title="¿Quienes somos?" tagline="The way we work is fun" ref={about}>
-        We are a fully in-house digital agency focusing on branding, marketing,
-        web design and development with clients ranging from start-ups, Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut
-        magna ultricies pellentesque.
+      <Welcome title="Optimice su gestión contable" ref={about}>
+        JCMExpansion es una empresa de contadores que se especializa en ofrecer servicios contables y fiscales a individuos y empresas.
+        Los contadores de JCMExpansion estamos altamente capacitados y tienen un amplio conocimiento de las leyes y regulaciones fiscales
+        vigentes en su jurisdicción. También pueden brindar asesoramiento y orientación a sus clientes sobre cómo cumplir con sus obligaciones fiscales de manera efectiva y eficiente.
       </Welcome>
       <OurServices
         title="¿Qué hacemos?"
@@ -70,7 +69,7 @@ const CreativeOnePage = () => {
         serviceImg={serviceOneImg}
         ref={service}
       />
-      <WhoWeAreTwo title="WHO WE ARE" tagline="THE WORLD AT YOUR FINGERTIPS" />
+      <WhoWeAreTwo title="¿Quienes Somos?" tagline="Confianza, excelencia, innovación" />
       <OurTeamTwo title="MEET OUR TEAM" tagline="WE ARE STRONGER" ref={team} />
       <Portfolio
         columns="3"

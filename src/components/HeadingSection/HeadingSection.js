@@ -18,7 +18,7 @@ const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
         </h4>
       )}
       {children ? (
-        <p
+        <p style={{fontSize: '1rem'}}
         >
           {children}
         </p>
