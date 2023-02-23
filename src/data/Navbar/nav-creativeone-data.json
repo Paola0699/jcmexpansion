@@ -1,9 +1,9 @@
 [
-  { "id": 1, "title": "Home", "link": "home" },
-  { "id": 2, "title": "About", "link": "about" },
-  { "id": 3, "title": "Services", "link": "service" },
-  { "id": 4, "title": "Team", "link": "team" },
-  { "id": 5, "title": "Work", "link": "work" },
+  { "id": 1, "title": "Inicio", "link": "home" },
+  { "id": 2, "title": "Nosotros", "link": "about" },
+  { "id": 3, "title": "Servicios", "link": "service" },
+  { "id": 4, "title": "Equipo", "link": "team" },
+  { "id": 5, "title": "Portafolio", "link": "work" },
   { "id": 6, "title": "Pricing", "link": "pricing" },
-  { "id": 7, "title": "Contact us", "link": "contact" }
+  { "id": 7, "title": "Contáctanos", "link": "contact" }
 ]
