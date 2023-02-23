@@ -14,9 +14,6 @@ const PriceItemOne = ({
   index,
 }) => (
   <div
-    data-aos={"fade-up"}
-    data-aos-delay={`${index}00`}
-    data-aos-duration={1000}
     className={
       "col-md-6 col-lg-3 pricing-table" +
       (featured === "true" ? "-featured" : "") +

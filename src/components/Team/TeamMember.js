@@ -4,9 +4,6 @@ import Icofont from "react-icofont";
 const TeamMember = ({ name, role, image, social, delay, removePadding }) => {
   return (
     <div
-      data-aos-delay={`${delay}00`}
-      data-aos={"fade-up"}
-      data-aos-duration={1000}
       className={
         "col-md-3 col-sm-6 col-xs-12 " +
         (removePadding === "true" ? "remove-padding" : "")

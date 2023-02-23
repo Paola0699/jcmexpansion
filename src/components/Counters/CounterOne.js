@@ -21,10 +21,6 @@ const CounterOne = ({ bg, type }) => {
             <div
               className="col-md-3 counter text-center col-sm-6"
               key={counter.id}
-              data-aos-delay={`${i}00`}
-              data-aos={"fade-up"}
-              data-aos-duration={1000}
-              data-aos-easing={"ease-in-sine"}
             >
               <h2
                 className={

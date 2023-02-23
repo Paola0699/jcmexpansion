@@ -13,9 +13,6 @@ const ContactForm = ({ title, tagline }) => {
       {title && (
         <h2
           className="text-uppercase font-700"
-          data-aos-delay={500}
-          data-aos={"fade-up"}
-          data-aos-easing={"ease-in-sine"}
         >
           {title}
         </h2>
@@ -23,9 +20,6 @@ const ContactForm = ({ title, tagline }) => {
       {tagline && (
         <h4
           className="text-uppercase"
-          data-aos-delay={500}
-          data-aos={"fade-up"}
-          data-aos-easing={"ease-in-sine"}
         >
           - {tagline} -
         </h4>
@@ -40,9 +34,6 @@ const ContactForm = ({ title, tagline }) => {
         <div className="messages"></div>
         <div
           className="form-floating"
-          data-aos-delay={500}
-          data-aos={"fade-up"}
-          data-aos-easing={"ease-in-sine"}
         >
           <input
             type="text"
@@ -60,9 +51,6 @@ const ContactForm = ({ title, tagline }) => {
         </div>
         <div
           className="form-floating"
-          data-aos-delay={600}
-          data-aos={"fade-up"}
-          data-aos-easing={"ease-in-sine"}
         >
           <input
             type="email"
@@ -80,9 +68,6 @@ const ContactForm = ({ title, tagline }) => {
         </div>
         <div
           className="form-floating"
-          data-aos-delay={700}
-          data-aos={"fade-up"}
-          data-aos-easing={"ease-in-sine"}
         >
           <textarea
             name="message"
@@ -102,9 +87,6 @@ const ContactForm = ({ title, tagline }) => {
           type="submit"
           name="submit"
           className="btn btn-color btn-circle"
-          data-aos-delay={800}
-          data-aos={"fade-up"}
-          data-aos-easing={"ease-in-sine"}
         >
           Book Now
         </button>
