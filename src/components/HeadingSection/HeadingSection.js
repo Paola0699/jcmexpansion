@@ -7,28 +7,18 @@ const HeadingSection = ({ title, tagline, classAppend, font, children }) => {
     >
       <h2
         className={font ? font : ""}
-        data-aos-delay={100}
-        data-aos={"fade-up"}
-        data-aos-duration={700}
       >
         {title}
       </h2>
       {tagline && (
         <h4
           className={"text-uppercase " + (font ? font : "")}
-          data-aos-delay={200}
-          data-aos={"fade-up"}
-          data-aos-duration={700}
         >
           {`- ${tagline} -`}
         </h4>
       )}
       {children ? (
         <p
-          data-aos-delay={300}
-          data-aos={"fade-up"}
-          data-aos-duration={700}
-          className="mt-30"
         >
           {children}
         </p>
