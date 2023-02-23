@@ -13,12 +13,12 @@ const OurServices = forwardRef(({ serviceImg, title, tagline }, ref) => (
     <div className="container">
       <div className="col-md-5 col-sm-7 offset-md-7 offset-sm-5">
         <h2
-          className="font-700"
+          className="font-700 cardo-font"
         >
           {title}
         </h2>
         <h4
-          className="mt-10 line-height-26"
+          className="mt-10 line-height-26 cardo-font"
         >
           {tagline}
         </h4>

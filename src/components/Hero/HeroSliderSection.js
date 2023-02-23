@@ -15,7 +15,7 @@ const HeroSliderSection = forwardRef(({ data }, ref) => (
       <ul className="slides">
         <Swiper
           navigation={true}
-          pagination={{clickable: true}}
+          pagination={{ clickable: true }}
           loop={true}
           grabCursor={true}
           effect={"fade"}
@@ -26,9 +26,8 @@ const HeroSliderSection = forwardRef(({ data }, ref) => (
               <div
                 className="slide-img"
                 style={{
-                  background: `url(${
-                    require("../../assets/images/" + slide.image)
-                  }) center center / cover scroll no-repeat`,
+                  background: `url(${require("../../assets/images/" + slide.image)
+                    }) center center / cover scroll no-repeat`,
                 }}
               ></div>
               <div
@@ -38,15 +37,15 @@ const HeroSliderSection = forwardRef(({ data }, ref) => (
               >
                 <div className="hero-text white-color">
                   <div className="container text-center">
-                    <h2 className="white-color font-500 letter-spacing-5">
+                    <h3 className="white-color font-100 letter-spacing-5 cardo-font">
                       {slide.tagline ? slide.tagline : ""}
-                    </h2>
-                    <h1 className="white-color text-uppercase font-700">
-                      {slide.title}
-                    </h1>
-                    <h3 className="white-color font-400">
-                      {slide.text ? parse(slide.text) : ""}
                     </h3>
+                    <h2 className="white-color text-uppercase font-100 poppins-font">
+                      {slide.title}
+                    </h2>
+                    <p className="white-color font-100 poppins-font" style={{ fontSize: '1.2rem' }}>
+                      {slide.text ? parse(slide.text) : ""}
+                    </p>
                     {slide.buttons.length !== 0 ? (
                       <p className="text-center mt-30">
                         <SliderButtons buttons={slide.buttons} />
