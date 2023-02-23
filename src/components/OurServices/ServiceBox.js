@@ -6,7 +6,7 @@ const ServiceBox = ({ icon, title, children, index }) => (
     className="col-md-12 feature-box text-left mb-50 col-sm-6"
   >
     <div className="float-left">
-      <Icofont icon={icon} className="font-60px default-icon" />
+      <Icofont icon={icon} className="font-60px brown-icon" />
     </div>
     <div className="float-right">
       <h5 className="mt-0">{title}</h5>
