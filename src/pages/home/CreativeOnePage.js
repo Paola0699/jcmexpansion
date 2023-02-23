@@ -58,15 +58,15 @@ const CreativeOnePage = () => {
     <Loader>
       <HeaderTwo scrollToSection={scrollToSection} />
       <HeroSliderSection data={dataCreative} ref={home} />
-      <Welcome title="Who We Are" tagline="The way we work is fun" ref={about}>
+      <Welcome title="¿Quienes somos?" tagline="The way we work is fun" ref={about}>
         We are a fully in-house digital agency focusing on branding, marketing,
         web design and development with clients ranging from start-ups, Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Sed varius quam ut
         magna ultricies pellentesque.
       </Welcome>
       <OurServices
-        title="What We Do"
-        tagline="We develop big ideas that sell."
+        title="¿Qué hacemos?"
+        tagline="Conoce nuestros servicios"
         serviceImg={serviceOneImg}
         ref={service}
       />
@@ -87,7 +87,7 @@ const CreativeOnePage = () => {
       <CTAThree
         tagline="Let's Talk"
         title="Start a Project"
-        textButton="Contact us"
+        textButton="Contáctanos"
         linkButton="!#"
         bg="dark"
       >
