@@ -15,6 +15,7 @@ import ContactUs from "../../components/ContactUs/ContactUs";
 import CTAThree from "../../components/CTA/CTAThree";
 import FooterOne from "../../components/Footer/FooterOne";
 import Portfolio from "../../components/Portfolio/Portfolio";
+import Map from "../../components/Maps/Map";
 
 const CreativeOnePage = () => {
   const home = useRef();
@@ -69,8 +70,6 @@ const CreativeOnePage = () => {
         serviceImg={serviceOneImg}
         ref={service}
       />
-      <WhoWeAreTwo title="¿Quiénes Somos?" tagline="Confianza, excelencia, innovación" />
-      <ContactUs ref={contact} />
       <CTAThree
         tagline="Let's Talk"
         title="Start a Project"
@@ -78,9 +77,14 @@ const CreativeOnePage = () => {
         linkButton="!#"
         bg="dark"
       >
-        Obtenga tranquilidad financiera y fiscal con los expertos contables de JCMExpansion, 
+        Obtenga tranquilidad financiera y fiscal con los expertos contables de JCMExpansion,
         <br />¡deje que nuestra experiencia y conocimientos lo lleven al éxito!
       </CTAThree>
+      <WhoWeAreTwo title="¿Quiénes Somos?" tagline="Confianza, excelencia, innovación" />
+      <section className="pb-0 map-section">
+        <Map classAppend="wide" />
+      </section>
+      <ContactUs ref={contact} />
       <FooterOne />
     </Loader>
   );
