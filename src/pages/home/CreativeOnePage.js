@@ -80,11 +80,12 @@ const CreativeOnePage = () => {
         Obtenga tranquilidad financiera y fiscal con los expertos contables de JCMExpansion,
         <br />¡deje que nuestra experiencia y conocimientos lo lleven al éxito!
       </CTAThree>
+
       <WhoWeAreTwo title="¿Quiénes Somos?" tagline="Confianza, excelencia, innovación" />
-      <section className="pb-0 map-section">
+      <ContactUs ref={contact} />
+      <section className="pb-0 pt-0 map-section" id='mobileshow'>
         <Map classAppend="wide" />
       </section>
-      <ContactUs ref={contact} />
       <FooterOne />
     </Loader>
   );
