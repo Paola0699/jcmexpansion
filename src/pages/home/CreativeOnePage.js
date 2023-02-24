@@ -66,8 +66,7 @@ const CreativeOnePage = () => {
         ref={service}
       />
       <CTAOne
-        title="Let's write your story, together."
-        tagline="Careers"
+        title="Contáctanos hoy para impulsar tu éxito financiero."
         bg="dark"
         textButton="Contáctanos"
         linkButton="!#"
