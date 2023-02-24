@@ -11,8 +11,8 @@ const CTAOne = ({ title, tagline, bg, textButton, linkButton, children }) => (
       <div className="row">
         <div className="col-md-5">
           <div className="cta-heading-left">
-            {tagline && <p className="subtitle mt-20">{tagline}</p>}
-            {title && <h3>{title}</h3>}
+            {tagline && <p className="subtitle mt-20 cardo-font">{tagline}</p>}
+            {title && <h3 className="cardo-font">{title}</h3>}
           </div>
         </div>
         <div className="col-md-1"></div>

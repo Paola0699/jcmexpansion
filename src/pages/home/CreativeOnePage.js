@@ -7,14 +7,9 @@ import HeroSliderSection from "../../components/Hero/HeroSliderSection";
 import OurServices from "../../components/OurServices/OurServices";
 import Welcome from "../../components/WelcomeSection/Welcome";
 import WhoWeAreTwo from "../../components/WhoWeAre/WhoWeAreTwo";
-import OurTeamTwo from "../../components/Team/OurTeamTwo";
-import CounterOne from "../../components/Counters/CounterOne";
-import TestimonialsOne from "../../components/Testimonials/TestimonialsOne";
-import PriceTablesTwo from "../../components/PriceTables/PriceTablesTwo";
 import ContactUs from "../../components/ContactUs/ContactUs";
-import CTAThree from "../../components/CTA/CTAThree";
+import CTAOne from "../../components/CTA/CTAOne";
 import FooterOne from "../../components/Footer/FooterOne";
-import Portfolio from "../../components/Portfolio/Portfolio";
 import Map from "../../components/Maps/Map";
 
 const CreativeOnePage = () => {
@@ -66,20 +61,20 @@ const CreativeOnePage = () => {
       </Welcome>
       <OurServices
         title="¿Qué hacemos?"
-        tagline="Conoce nuestros servicios"
+        tagline="CONOCE NUESTROS SERVICIOS"
         serviceImg={serviceOneImg}
         ref={service}
       />
-      <CTAThree
-        tagline="Let's Talk"
-        title="Start a Project"
+      <CTAOne
+        title="Let's write your story, together."
+        tagline="Careers"
+        bg="dark"
         textButton="Contáctanos"
         linkButton="!#"
-        bg="dark"
       >
         Obtenga tranquilidad financiera y fiscal con los expertos contables de JCMExpansion,
-        <br />¡deje que nuestra experiencia y conocimientos lo lleven al éxito!
-      </CTAThree>
+        ¡deje que nuestra experiencia y conocimientos lo lleven al éxito!
+      </CTAOne>
 
       <WhoWeAreTwo title="¿Quiénes Somos?" tagline="Confianza, excelencia, innovación" />
       <ContactUs ref={contact} />

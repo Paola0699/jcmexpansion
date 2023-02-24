@@ -12,7 +12,7 @@ const ContactForm = ({ title, tagline }) => {
     <>
       {title && (
         <h2
-          className="text-uppercase font-700"
+          className="text-uppercase font-700 cardo-font"
         >
           {title}
         </h2>
