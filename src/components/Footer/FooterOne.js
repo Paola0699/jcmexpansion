@@ -20,81 +20,36 @@ const FooterOne = () => (
                   </a>
                 </div>
                 <p>
-                  We are a fully in-house digital agency focusing on branding,
-                  marketing, web design and development with clients ranging
-                  from start-ups, Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Sed varius quam ut magna ultricies
-                  pellentesque.
+                JCMExpansion es una firma de contadores que ofrece servicios contables, 
+                fiscales y de consultoría empresarial de calidad a empresas y particulares. 
+                Con valores clave como la integridad y la excelencia, se esfuerza por brindar soluciones 
+                financieras personalizadas y confiables para sus clientes.
                 </p>
               </div>
             </div>
             <div className="col-sm-6 col-md-2">
-              <div className="widget widget-links">
-                <h5 className="widget-title">Work With Us</h5>
-                <ul>
-                  <li>
-                    <a href="#!">Themeforest</a>
-                  </li>
-                  <li>
-                    <a href="#!">Audio Jungle</a>
-                  </li>
-                  <li>
-                    <a href="#!">Code Canyon</a>
-                  </li>
-                  <li>
-                    <a href="#!">Video Hive</a>
-                  </li>
-                  <li>
-                    <a href="#!">Envato Market</a>
-                  </li>
-                </ul>
-              </div>
             </div>
             <div className="col-sm-6 col-md-2">
-              <div className="widget widget-links">
-                <h5 className="widget-title">Useful Links</h5>
-                <ul>
-                  <li>
-                    <a href={process.env.PUBLIC_URL}>About Us</a>
-                  </li>
-                  <li>
-                    <a href={process.env.PUBLIC_URL}>Contact Us</a>
-                  </li>
-                  <li>
-                    <a href={process.env.PUBLIC_URL}>Our Services</a>
-                  </li>
-                  <li>
-                    <a href={process.env.PUBLIC_URL}>Terms &amp; Conditions</a>
-                  </li>
-                  <li>
-                    <a href={process.env.PUBLIC_URL}>Careers</a>
-                  </li>
-                </ul>
-              </div>
             </div>
             <div className="col-sm-6 col-md-4">
               <div className="widget widget-text widget-links">
-                <h5 className="widget-title">Contact Us</h5>
+                <h5 className="widget-title">Contáctanos</h5>
                 <ul>
                   <li>
                     <i className="icofont icofont-google-map"></i>
                     <a href={process.env.PUBLIC_URL}>
-                      Park Lane Llandrindod Wells, LD7 9QW
+                      Eliseo Ramírez Ulloa #103. Colonia Real de Minas. CP. 42090. Pachuca de Soto, Hidalgo, México. 
                     </a>
                   </li>
                   <li>
                     <i className="icofont icofont-iphone"></i>
-                    <a href="tel:441632960290">+44 1632 960290</a>
+                    <a href="tel:771 107 4224">+771 107 4224</a>
                   </li>
                   <li>
                     <i className="icofont icofont-mail"></i>
-                    <a href="mailto:helloscoda@gmail.com">
-                      helloscoda@gmail.com
+                    <a href="mailto:jcmexpansion@hotmail.com">
+                      jcmexpansion@hotmail.com
                     </a>
-                  </li>
-                  <li>
-                    <i className="icofont icofont-globe"></i>
-                    <a href={process.env.PUBLIC_URL}>www.envato.com</a>
                   </li>
                 </ul>
               </div>

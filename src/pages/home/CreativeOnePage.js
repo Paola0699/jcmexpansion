@@ -90,9 +90,8 @@ const CreativeOnePage = () => {
         linkButton="!#"
         bg="dark"
       >
-        We do not tell you our story. We write it together. Partnering with us
-        means a seat at
-        <br /> the table where you will be heard.
+        Obtenga tranquilidad financiera y fiscal con los expertos contables de JCMExpansion, 
+        <br />¡deje que nuestra experiencia y conocimientos lo lleven al éxito!
       </CTAThree>
       <FooterOne />
     </Loader>
