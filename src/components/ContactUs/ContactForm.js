@@ -46,7 +46,7 @@ const ContactForm = ({ title, tagline }) => {
             value={inputs.name}
             onChange={handleInputChange}
           />
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Nombre</label>
           <div className="help-block with-errors mt-20"></div>
         </div>
         <div
@@ -63,7 +63,7 @@ const ContactForm = ({ title, tagline }) => {
             value={inputs.email}
             onChange={handleInputChange}
           />
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Correo electrónico</label>
           <div className="help-block with-errors mt-20"></div>
         </div>
         <div
@@ -80,7 +80,7 @@ const ContactForm = ({ title, tagline }) => {
             value={inputs.message}
             onChange={handleInputChange}
           ></textarea>
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Mensaje</label>
           <div className="help-block with-errors mt-20"></div>
         </div>
         <button
@@ -88,7 +88,7 @@ const ContactForm = ({ title, tagline }) => {
           name="submit"
           className="btn btn-color btn-circle"
         >
-          Book Now
+          Enviar Mensaje
         </button>
       </form>
     </>

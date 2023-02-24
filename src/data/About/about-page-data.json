@@ -3,24 +3,24 @@
     "id": 1,
     "title": "Profesionalismo",
     "text": "JCMExpansion valora la ética profesional y la integridad en todas sus interacciones y transacciones comerciales.",
-    "icon": "diamond"
+    "icon": "briefcase-1"
   },
   {
     "id": 2,
     "title": "Confidencialidad",
     "text": " La privacidad y la confidencialidad de la información del cliente son de máxima importancia para JCMExpansion.",
-    "icon": "paint"
+    "icon": "ssl-security"
   },
   {
     "id": 3,
     "title": "Integridad",
     "text": "JCMExpansion valora la honestidad y la transparencia en todas sus interacciones comerciales y con sus clientes.",
-    "icon": "rocket-alt-2"
+    "icon": "business-man-alt-1"
   },
   {
     "id": 4,
     "title": "Orientación al cliente",
     "text": "La satisfacción del cliente es una prioridad para JCMExpansion, y se esfuerzan por comprender las necesidades de sus clientes y brindar soluciones personalizadas para satisfacerlas.",
-    "icon": "laptop-alt"
+    "icon": "users-social"
   }
 ]

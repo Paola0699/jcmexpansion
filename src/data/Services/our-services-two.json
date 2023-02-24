@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "icon": "test-tube-alt",
+    "icon": "money-bag",
     "title": "Servicios contables",
     "text": "JCMExpansion ofrece una variedad de servicios contables, como la gestión de nóminas, la preparación de estados financieros, el asesoramiento en la selección y configuración de software contable, entre otros."
   },
   {
     "id": 2,
-    "icon": "computer",
+    "icon": "bank-alt",
     "title": "Servicios fiscales",
     "text": "Preparación de declaraciones de impuestos, el asesoramiento en materia de cumplimiento tributario, la planificación fiscal estratégica y la representación de los clientes ante las autoridades fiscales."
   },
   {
     "id": 3,
-    "icon": "headphone-alt",
+    "icon": "certificate",
     "title": "Consultoría empresarial",
     "text": "Elaboración de planes de negocio, la asesoría en materia de financiamiento y la evaluación de estrategias de expansión y crecimiento empresarial."
   }

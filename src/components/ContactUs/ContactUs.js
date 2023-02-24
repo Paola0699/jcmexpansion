@@ -10,7 +10,7 @@ const ContactUs = forwardRef((props, ref) => (
             <Map />
           </div>
           <div className="col-about-left col-md-6 text-left">
-            <ContactForm title="Contáctanos" tagline="Stay in Touch" />
+            <ContactForm title="Contáctanos" tagline="Mantente en contacto" />
           </div>
         </div>
       </div>

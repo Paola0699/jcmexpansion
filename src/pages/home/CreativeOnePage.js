@@ -60,7 +60,7 @@ const CreativeOnePage = () => {
       <HeroSliderSection data={dataCreative} ref={home} />
       <Welcome title="Optimice su gestión contable" ref={about}>
         JCMExpansion es una empresa de contadores que se especializa en ofrecer servicios contables y fiscales a individuos y empresas.
-        Los contadores de JCMExpansion estamos altamente capacitados y tienen un amplio conocimiento de las leyes y regulaciones fiscales
+        Los contadores de JCMExpansion están altamente capacitados y tienen un amplio conocimiento de las leyes y regulaciones fiscales
         vigentes en su jurisdicción. También pueden brindar asesoramiento y orientación a sus clientes sobre cómo cumplir con sus obligaciones fiscales de manera efectiva y eficiente.
       </Welcome>
       <OurServices
@@ -69,9 +69,7 @@ const CreativeOnePage = () => {
         serviceImg={serviceOneImg}
         ref={service}
       />
-      <WhoWeAreTwo title="¿Quienes Somos?" tagline="Confianza, excelencia, innovación" />
-      <CounterOne type="wide" />
-      <TestimonialsOne title="Testimonios" tagline="Happy clients" />
+      <WhoWeAreTwo title="¿Quiénes Somos?" tagline="Confianza, excelencia, innovación" />
       <ContactUs ref={contact} />
       <CTAThree
         tagline="Let's Talk"
