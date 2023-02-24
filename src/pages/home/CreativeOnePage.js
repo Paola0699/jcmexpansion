@@ -70,18 +70,8 @@ const CreativeOnePage = () => {
         ref={service}
       />
       <WhoWeAreTwo title="¿Quienes Somos?" tagline="Confianza, excelencia, innovación" />
-      <OurTeamTwo title="MEET OUR TEAM" tagline="WE ARE STRONGER" ref={team} />
-      <Portfolio
-        columns="3"
-        layout="wide"
-        filter="true"
-        items="6"
-        classAppend="pt-0 white-bg"
-        ref={work}
-      />
       <CounterOne type="wide" />
-      <TestimonialsOne title="Testimonials" tagline="Happy clients" />
-      <PriceTablesTwo title="Our Pricing" tagline="Choose your plan" ref={pricing} />
+      <TestimonialsOne title="Testimonios" tagline="Happy clients" />
       <ContactUs ref={contact} />
       <CTAThree
         tagline="Let's Talk"
