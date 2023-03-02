@@ -458,7 +458,7 @@ function App() {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/contact-form`}
+            path={`${process.env.PUBLIC_URL}/contacto`}
             component={ContactForms}
           />
           <Route

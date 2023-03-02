@@ -11,7 +11,7 @@ const ContactArchitecture = forwardRef(({ title, tagline, text, classAppend }, r
         </HeadingSection>
       </div>
       <div className={"row " + (classAppend || "")}>
-        <div className="col-md-8 offset-md-2">
+        <div className="col-md-8">
           <ContactFormThree />
         </div>
       </div>

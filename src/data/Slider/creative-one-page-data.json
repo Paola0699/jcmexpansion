@@ -7,14 +7,14 @@
       "buttons": [
         {
           "id": 1,
-          "text": "VER MÁS",
-          "link": "!#",
+          "text": "CONTÁCTANOS",
+          "link": "/contacto",
           "type": "btn-circle btn-color"
         },
         {
             "id": 2,
-            "text": "CONTÁCTANOS",
-            "link": "!#",
+            "text": "Servicios",
+            "link": "/servicios",
             "type":"btn-circle btn-outline-white"
           }
       ]
@@ -27,14 +27,14 @@
       "buttons": [
         {
           "id": 1,
-          "text": "VER MAS",
-          "link": "!#",
+          "text": "CONTÁCTANOS",
+          "link": "/contacto",
           "type":"btn-circle btn-color"
         },
         {
           "id": 2,
           "text": "NUESTROS SERVICIOS",
-          "link": "!#",
+          "link": "/servicios",
           "type":"btn-circle btn-outline-white"
         }
       ]

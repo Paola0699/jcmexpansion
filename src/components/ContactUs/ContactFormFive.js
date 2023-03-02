@@ -28,7 +28,7 @@ const ContactFormFive = () => {
           value={inputs.name}
           onChange={handleInputChange}
         />
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Nombre</label>
         <div className="help-block with-errors mt-20"></div>
       </div>
       <div className="form-floating">
@@ -37,13 +37,13 @@ const ContactFormFive = () => {
           name="email"
           className="form-control"
           id="email"
-          placeholder="Your Email"
+          placeholder="Correo electrónico"
           required="required"
           data-error="Please Enter Valid Email"
           value={inputs.email}
           onChange={handleInputChange}
         />
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Correo Electrónico</label>
         <div className="help-block with-errors mt-20"></div>
       </div>
       <div className="form-floating">
@@ -56,7 +56,7 @@ const ContactFormFive = () => {
           value={inputs.subject}
           onChange={handleInputChange}
         />
-        <label htmlFor="subject">Subject</label>
+        <label htmlFor="subject">Asunto</label>
       </div>
       <div className="form-floating">
         <textarea
@@ -70,11 +70,11 @@ const ContactFormFive = () => {
           value={inputs.message}
           onChange={handleInputChange}
         ></textarea>
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">Mensaje</label>
         <div className="help-block with-errors mt-20"></div>
       </div>
       <button type="submit" name="submit" className="btn btn-color btn-circle">
-        Send Mail
+        Enviar Correo
       </button>
     </form>
   );
