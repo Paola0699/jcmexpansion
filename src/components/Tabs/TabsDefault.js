@@ -38,8 +38,8 @@ const TabsDefault = () => (
                     </ul>
                   </p>}
 
-                  {tab.id === 2 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
-                    <h1>{tab.title}</h1>
+                  {tab.id === 2 && <p style={{ fontSize: '1.2rem', lineHeight: '30px', padding: '30px' }}>
+                    <h2>{tab.title}</h2>
                     <br />
                     Contamos con un equipo calificado de asesores, quienes cuentan con la experiencia  en las siguientes areas:
                     <br />
@@ -51,7 +51,7 @@ const TabsDefault = () => (
                     Nuestros servicios consisten en poderte asesorar de manera adecuada en las areas antes mencionadas y asi poder cumplir de manera oportuna con la informacion que te requieran las autoridades correspondientes. Nuestros servicios  van dependiendo de las necesidades que asi lo requiera la empresa y se pueden adecuar dependiendo de la etapa donde se encuentre la revision o la solicitud de informacion
                   </p>}
 
-                  {tab.id === 3 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
+                  {tab.id === 3 && <p style={{ fontSize: '1.2rem', lineHeight: '30px', padding: '30px' }}>
                     <h1>{tab.title}</h1>
                     <br />
                     <ul>
@@ -64,7 +64,7 @@ const TabsDefault = () => (
                     </ul>
                   </p>}
 
-                  {tab.id === 4 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
+                  {tab.id === 4 && <p style={{ fontSize: '1.2rem', lineHeight: '30px', padding: '30px' }}>
                     <h1>{tab.title}</h1>
                     <br/>
                     <ul>
