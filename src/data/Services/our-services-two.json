@@ -1,20 +1,26 @@
 [
   {
     "id": 1,
-    "icon": "money-bag",
+    "icon": "ui-calculator",
     "title": "Servicios contables",
-    "text": "JCMExpansion ofrece una variedad de servicios contables, como la gestión de nóminas, la preparación de estados financieros, el asesoramiento en la selección y configuración de software contable, entre otros."
+    "text": "Contamos con un equipo de contadores altamente calificados y actualizados, quienes te podremos apoyar en la contabilidad de tu empresa, ya sea como persona fisica o como persona moral."
   },
   {
     "id": 2,
-    "icon": "bank-alt",
-    "title": "Servicios fiscales",
-    "text": "Preparación de declaraciones de impuestos, el asesoramiento en materia de cumplimiento tributario, la planificación fiscal estratégica y la representación de los clientes ante las autoridades fiscales."
+    "icon": "files-stack",
+    "title": "Asesoria en  revisiones por parte de la autoridad ",
+    "text": "Contamos con un equipo calificado de asesores, quienes cuentan con la experiencia  en las siguientes areas: auditoria del sat, auditoria del imss, revisiones por parte de la secretaria del trabajo y prevision social."
   },
   {
     "id": 3,
-    "icon": "certificate",
-    "title": "Consultoría empresarial",
-    "text": "Elaboración de planes de negocio, la asesoría en materia de financiamiento y la evaluación de estrategias de expansión y crecimiento empresarial."
+    "icon": "business-man",
+    "title": "Asesoria Fiscal ",
+    "text": "Contamo con un equipo altamanete preparado que te brindará soluciones personalizadas en materia fiscal."
+  },
+  {
+    "id": 4,
+    "icon": "law-alt-2",
+    "title": "Área Legal",
+    "text": " En JCM Expansión entendemos que una parte importante en una empresa es el area legal."
   }
 ]

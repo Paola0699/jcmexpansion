@@ -9,7 +9,9 @@ const ServiceBox = ({ icon, title, children, index }) => (
       <Icofont icon={icon} className="font-60px brown-icon" />
     </div>
     <div className="float-right">
-      <h5 className="mt-0">{title}</h5>
+      <a href="/servicios">
+        <h5 className="mt-0">{title}</h5>
+      </a>
       <p>{children}</p>
     </div>
   </div>

@@ -72,10 +72,6 @@ const HeaderOne = ({ type }) => {
             <Icofont icon="navigation-menu" />
           </button>
           <MainLogo showMenu={showMenu} />
-          <DropdownMenu />
-          <AttributeNav>
-            <CartSearchTop showSearchForm={showSearchForm} />
-          </AttributeNav>
         </div>
       </nav>
     </>

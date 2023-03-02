@@ -218,7 +218,7 @@ function App() {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/service-simple`}
+            path={`${process.env.PUBLIC_URL}/servicios`}
             component={ServiceSimple}
           />
           <Route
