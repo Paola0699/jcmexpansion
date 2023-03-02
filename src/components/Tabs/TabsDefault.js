@@ -18,7 +18,10 @@ const TabsDefault = () => (
             <div className="tab-content">
               {dataTabs.map((tab) => (
                 <TabPanel key={tab.id} className="tab-pane show in active">
-                  {tab.id === 1 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
+                  <br />
+                  {tab.id === 1 && <p style={{ fontSize: '1.1rem', lineHeight: '30px', padding: '30px' }}>
+                    <h1>{tab.title}</h1>
+                    <br />
                     Contamos con un equipo de contadores altamente calificados y actualizados, quienes te podremos apoyar en la contabilidad de tu empresa, ya sea como persona fisica o como persona moral.
                     <br />
                     Contamos con los softwares contables mas completos y sofisticados que nos permitiran llevar la contabilidad de tunegocio de una manera correcta, eficiente  y asi hacer mas optima la toma de desiciones.
@@ -36,6 +39,8 @@ const TabsDefault = () => (
                   </p>}
 
                   {tab.id === 2 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
+                    <h1>{tab.title}</h1>
+                    <br />
                     Contamos con un equipo calificado de asesores, quienes cuentan con la experiencia  en las siguientes areas:
                     <br />
                     <ul>
@@ -47,6 +52,8 @@ const TabsDefault = () => (
                   </p>}
 
                   {tab.id === 3 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
+                    <h1>{tab.title}</h1>
+                    <br />
                     <ul>
                       <li>Elaboración de papeles de trabajo para el correcto calculo de  impuestos.</li>
                       <li>Presentación de las declaraciones provisionales y anuales</li>
@@ -58,6 +65,8 @@ const TabsDefault = () => (
                   </p>}
 
                   {tab.id === 4 && <p style={{ fontSize: '1.2rem', lineHeight: '30px' }}>
+                    <h1>{tab.title}</h1>
+                    <br/>
                     <ul>
                       <li>Materia Laboral
                         <ul>
