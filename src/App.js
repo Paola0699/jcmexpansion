@@ -93,6 +93,7 @@ import TeamMembers from "./pages/elements/TeamMembers";
 import Countdowns from "./pages/elements/Countdowns";
 import ScrollToTop from "./helpers/ScrollToTop";
 import Demos from "./pages/Demos";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 
 function App() {
 
@@ -495,6 +496,11 @@ function App() {
             exact
             path={`${process.env.PUBLIC_URL}/countdowns`}
             component={Countdowns}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/privacy-policy`}
+            component={PrivacyPolicy}
           />
           <Route component={Page404} />
         </Switch>
